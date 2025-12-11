@@ -1,7 +1,8 @@
 <!-- Technical Skills Section -->
-<section class="technical-skills container" id="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
+<section class="technical-skills" id="skills">
+    <div class="container">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
         <div class="skill-category">
             <h3>Frontend</h3>
             <div class="skill-tags">
@@ -36,5 +37,6 @@
                 <span class="skill-tag">Microsoft Exel</span>
             </div>
         </div>
+    </div>
     </div>
 </section>

@@ -1,7 +1,8 @@
 <!-- Experience Section -->
-<section class="experience container" id="experience">
-    <h2>Experience</h2>
-    <div class="experience-grid">
+<section class="experience" id="experience">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-grid">
         <div class="experience-card">
             <div class="card-header">
                 <h3>English Tutor</h3>
@@ -46,5 +47,6 @@
                 <li>Made ice cream and dough according to recipes and quality standards</li>
             </ul>
         </div>
+    </div>
     </div>
 </section>

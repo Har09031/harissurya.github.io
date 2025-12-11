@@ -1,7 +1,8 @@
 <!-- Education Section -->
-<section class="education container" id="education">
-    <h2>Education</h2>
-    <div class="timeline">
+<section class="education" id="education">
+    <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
         <div class="timeline-item">
             <div class="timeline-date">2022 - 2025</div>
             <h3>Associate Degree in Informatics Engineering</h3>
@@ -14,5 +15,6 @@
             <p class="timeline-school">Basic English Course</p>
             <p class="timeline-description">Completed a 6-month English learning program focused on improving communication, grammar, and speaking skills.</p>
         </div>
+    </div>
     </div>
 </section>
