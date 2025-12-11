@@ -557,7 +557,7 @@ nav a:hover:after {
 
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: clamp(1.5rem, 3vw, 2rem);
 }
 
@@ -814,6 +814,13 @@ footer p {
 
 /* Responsive Breakpoints */
 
+/* Large Screens: >1600px */
+@media (min-width: 1600px) {
+    .experience-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 /* Tablet Landscape: 1024px */
 @media (max-width: 1024px) {
     .hero-container {
@@ -826,6 +833,10 @@ footer p {
     
     .timeline-item {
         width: 47%;
+    }
+
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -966,7 +977,10 @@ footer p {
     }
 
     .projects-grid,
-    .skills-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
     .experience-grid {
         grid-template-columns: 1fr;
     }

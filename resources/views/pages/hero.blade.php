@@ -19,11 +19,11 @@
         <!-- Right Side - Image Slider -->
         <div class="hero-slider">
             <div class="slider-container">
-                <div class="slider-item active" style="background-image: url('{{ asset('images/hero/IMG_0126.jpg') }}');">
+                <div class="slider-item active" style="background-image: url('{{ asset('images/hero/IMG_3322.JPG') }}');">
                 </div>
-                <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_3976.JPG') }}');">
+                <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_3349.JPG') }}');">
                 </div>
-                <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_5786.jpg') }}');">
+                <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_3363.jpg') }}');">
                 </div>
             </div>
             <div class="slider-dots">
