@@ -1,0 +1,10 @@
+:8000
+
+root * /app/public
+file_server
+
+php_auto {
+    env APP_ENV=local
+    env APP_DEBUG=true
+    worker /index.php
+}
