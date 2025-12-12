@@ -23,7 +23,7 @@
                 </div>
                 <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_3349.JPG') }}');">
                 </div>
-                <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_3363.jpg') }}');">
+                <div class="slider-item" style="background-image: url('{{ asset('images/hero/IMG_3363.JPG') }}');">
                 </div>
             </div>
             <div class="slider-dots">
